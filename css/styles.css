@@ -300,12 +300,16 @@ img {
   text-align: center;
 }
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -60px;
   margin-top: -60px;
-  padding-bottom: 60px;
 }
 
 .footer-list-item {
@@ -337,10 +341,6 @@ img {
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-color);
-}
-
-.section.portfolio {
-  padding-bottom: 50px;
 }
 
 .portfolio-list .button {
